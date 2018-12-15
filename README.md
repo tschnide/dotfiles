@@ -10,4 +10,4 @@ directory. ;)
   from my home directory to the file in this directory.
 
 # Example
-* The article I just shamelessly plagarized: https://shinglyu.github.io/productivity/2016/03/12/dotfiles.html
+* The article I just shamelessly plagiarized: https://shinglyu.github.io/productivity/2016/03/12/dotfiles.html
