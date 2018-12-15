@@ -8,7 +8,7 @@ directory. ;)
 * The solution is to put those files all together and then create symlinks to them from my home directory.
 
 # Example using a .vimrc file
-1. Go to your home directory and create a directory called dotfiles. 
+1. Go to your home directory and create a directory called dotfiles.  
   `mkdir dotfiles`
 
 2. Check to see if you have a `.vimrc` file in your home directory, if
