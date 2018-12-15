@@ -10,26 +10,31 @@ directory. ;)
   from my home directory to the file in this directory.
 
 # Example using a .vimrc file
-* Step one. Create a git repo called dotfiles.  
-https://github.com/new
+1. Create a git repo called dotfiles.  
+  https://github.com/new
 
-* Step two. Go to your home directory and create a directory called dotfiles.
-** mkdir dotfiles
-* Step three. Check to see if you have a .vimrc file in your home directory, if
+2. Go to your home directory and create a directory called dotfiles.
+  `mkdir dotfiles`
+
+3. Check to see if you have a `.vimrc` file in your home directory, if
   so make a quick backup for safetey.
-** cd ~/
-** ls -la
-** cp .vimrc .vimrc_backup
-* Step 3 (part two!). If you did not have a .vimrc that's fine. It's just
+  `cd ~/`
+  `ls -la`
+  `cp .vimrc .vimrc_backup`
+
+3. (P2). If you did not have a `.vimrc` that's fine. It's just
   a configuration file for vim so you can make it. If you want you can pull
 mine.
-** cd dotfiles
-** git pull https://github.com/tschnide/dotfiles.git
-* Step 4. Move your .vimrc file from your home directory to the dotfile
+  `cd dotfiles`
+  `git pull https://github.com/tschnide/dotfiles.git`
+
+4. Move your `.vimrc` file from your home directory to the dotfile
   directory. This step is only relevent if you already had one. 
-** mv .vimrc dotfile
-* Step 5. Now create a symlink from your home directory to the dot file.
-** ln -s dotfile/.vimrc .vimrc
+  `mv .vimrc dotfile`
+
+5. Now create a symlink from your home directory to the dot file.
+  `ln -s dotfile/.vimrc .vimrc`
+
 * Step 6. Check.
 ** cd ~/
 ** you should now see a symlink like this `vimrc -> dotfiles/.vimrc`
