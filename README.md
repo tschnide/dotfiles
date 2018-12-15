@@ -17,31 +17,40 @@ directory. ;)
   `mkdir dotfiles`
 
 3. Check to see if you have a `.vimrc` file in your home directory, if
-  so make a quick backup for safetey.
-  `cd ~/`
-  `ls -la`
-  `cp .vimrc .vimrc_backup`
+  so make a quick backup for safetey.  
+  `cd ~/`  
+  `ls -la`  
+  `cp .vimrc .vimrc_backup`  
 
 3. (P2). If you did not have a `.vimrc` that's fine. It's just
   a configuration file for vim so you can make it. If you want you can pull
-mine.
-  `cd dotfiles`
-  `git pull https://github.com/tschnide/dotfiles.git`
+mine.  
+  `cd dotfiles`  
+  `git pull https://github.com/tschnide/dotfiles.git`  
 
 4. Move your `.vimrc` file from your home directory to the dotfile
-  directory. This step is only relevent if you already had one. 
-  `mv .vimrc dotfile`
+  directory. This step is only relevent if you already had one.  
+  `mv .vimrc dotfile`  
 
-5. Now create a symlink from your home directory to the dot file.
-  `ln -s dotfile/.vimrc .vimrc`
+5. Now create a symlink from your home directory to the dot file.  
+  `ln -s dotfile/.vimrc .vimrc`  
 
-* Step 6. Check.
-** cd ~/
-** you should now see a symlink like this `vimrc -> dotfiles/.vimrc`
-** Open it with: `vim .vimrc` and you should see the same contents as the file
-in the dotfile.
+6. Check.  
+`cd ~/`  
+You should now see a symlink like this `vimrc -> dotfiles/.vimrc` 
+Open it and  you should see the same contents as the file
+in the dotfile.  
+  `vim .vimrc`  
+
 * Now repeat the process beginning with step two for each computer that you
   want to configure.
+
+* I tried to make this easy enough that anyone could follow along. When I first
+  started there were cool things that I wanted to do but they were written to
+an audience that had more experience. This was the case even for somthing as
+conceptually simple as this. That said. I just wrote all of this ENTIRELY from memory
+and I'm tired of working on it right now so it may not be perfect. If someone
+stumbles on this, be sure to check commands etc.
 
 # Sources
 * The article I just shamelessly plagiarized: https://shinglyu.github.io/productivity/2016/03/12/dotfiles.html
