@@ -11,7 +11,8 @@ directory. ;)
 
 # Example using a .vimrc file
 * Step one. Create a git repo called dotfiles.
-** https://github.com/new
+https://github.com/new
+
 * Step two. Go to your home directory and create a directory called dotfiles.
 ** mkdir dotfiles
 * Step three. Check to see if you have a .vimrc file in your home directory, if
