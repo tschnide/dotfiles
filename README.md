@@ -45,8 +45,8 @@ Ok. You're done. To link up another computer just create a dotfile as you did fo
 
 
 I tried to make this easy enough that anyone could follow along. When I first
-started there were cool things that I wanted to do but they were written to
-an audience that had more experience. This was the case even for somthing as
+gained an interest in computers there were cool things that I wanted to do but they were written to
+an audience that had more experience. Sometimes this was the case even for something as
 conceptually simple as this. That said. I just wrote all of this ENTIRELY from memory
 and I'm tired of working on it right now so it may not be perfect. If someone
 stumbles on this, be sure to check commands etc. Please request a pull if you see improvements that can be made. 
