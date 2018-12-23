@@ -12,7 +12,7 @@ directory. ;)
   `mkdir dotfiles`
 
 2. Check to see if you have a `.vimrc` file in your home directory, if
-  so make a quick backup for safetey.  
+  so make a quick backup for safety.  
   `cd ~/`  
   `ls -la`  
   `cp .vimrc .vimrc_backup`  
